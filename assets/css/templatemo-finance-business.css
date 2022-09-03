@@ -782,6 +782,70 @@ ul.slick-dots {
   margin: 25px auto 0px auto;
 }
 
+/* df */
+
+.testimonial-item2 .inner-content {
+  text-align: center;
+  background-color: pink;
+  padding: 30px;
+  border-radius: 5px;
+}
+.testimonial-item2 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.testimonial-item2 h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.testimonial-item2 span {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #003399;
+}
+.testimonial-item2 img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin: 25px auto 0px auto;
+}
+/* effic */
+
+
+.testimonial-item3 .inner-content {
+  text-align: center;
+  background-color: cyan;
+  padding: 30px;
+  border-radius: 5px;
+}
+.testimonial-item3 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.testimonial-item3 h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.testimonial-item3 span {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #003399;
+}
+.testimonial-item3 img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin: 25px auto 0px auto;
+}
+/* compasion */
 /* Call Back Style */
 
 .callback-services {
