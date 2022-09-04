@@ -388,11 +388,11 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-  background-image: url(../images/precondo-ca-OlSGcrLSYkw-unsplash.jpg);
+  background-image: url(../images/header2.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-  background-image: url(../images/annie-spratt-hWJsOnaWTqs-unsplash.jpg);
+  background-image: url(../images/prj.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
@@ -475,7 +475,7 @@ ul.slick-dots {
   max-width: 570px;
   color: #fff;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 30px;
   margin-bottom: 40px;
 }
