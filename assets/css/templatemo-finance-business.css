@@ -396,7 +396,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-3 .img-fill {
-  background-image: url(../images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg);
+  background-image: url(../images/invest4.jpg);
 }
 
 .Modern-Slider .NextArrow {
@@ -456,7 +456,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #003399;
+  color: lawngreen;
   animation: fadeOutRight 1s both;
 }
 
@@ -846,6 +846,99 @@ ul.slick-dots {
   margin: 25px auto 0px auto;
 }
 /* compasion */
+.testimonial-item4 .inner-content {
+  text-align: center;
+  background-color:lightgreen ;
+  padding: 30px;
+  border-radius: 5px;
+}
+.testimonial-item4 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.testimonial-item4 h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.testimonial-item4 span {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #003399;
+}
+.testimonial-item4 img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin: 25px auto 0px auto;
+}
+
+/* Dedication */
+
+.testimonial-item5 .inner-content {
+  text-align: center;
+  background-color:lightyellow ;
+  padding: 30px;
+  border-radius: 5px;
+}
+.testimonial-item5 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.testimonial-item5 h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.testimonial-item5 span {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #003399;
+}
+.testimonial-item5 img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin: 25px auto 0px auto;
+}
+
+/* quality */
+.testimonial-item6 .inner-content {
+  text-align: center;
+  background-color:#CBC3E3 ;
+  padding: 30px;
+  border-radius: 5px;
+}
+.testimonial-item6 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.testimonial-item6 h4 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.testimonial-item6 span {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #003399;
+}
+.testimonial-item6 img {
+  max-width: 60px;
+  border-radius: 50%;
+  margin: 25px auto 0px auto;
+}
+
 /* Call Back Style */
 
 .callback-services {
@@ -1159,7 +1252,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
   text-align: center;
-  background-image: url(../images/page-heading-bg.jpg);
+  background-image: url(../images/stock2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1484,6 +1577,36 @@ h2::after {
 }
 
 .services .service-item:hover {
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.team-item .down-content:hover{
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+
+.testimonial-item .inner-content:hover{
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.testimonial-item2 .inner-content:hover{
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.testimonial-item3 .inner-content:hover{
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.testimonial-item4 .inner-content:hover{
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.testimonial-item5 .inner-content:hover{
+  transition: all 0.2s;
+  transform: scale(1.05);
+}
+.testimonial-item6 .inner-content:hover{
   transition: all 0.2s;
   transform: scale(1.05);
 }
