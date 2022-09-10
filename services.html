@@ -9,6 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/images/FINAL LOGO-1.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Services - WinSouth</title>
 
     <!-- Bootstrap core CSS -->
@@ -203,7 +204,8 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <div class="col-md-12">
             <div class="contact-form">
-              <form id="contact" action="" method="post">
+              
+                <form id="submit-form" action="">
                 <div class="row">
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
@@ -217,7 +219,7 @@ https://templatemo.com/tm-545-finance-business
                   </div>
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                      <input name="Phone" type="text" class="form-control" id="Phone" placeholder="Phone" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
@@ -299,7 +301,7 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-6 footer-item last-item">
             <h4>Contact Us</h4>
             <div class="contact-form">
-              <form id="contact footer-contact" action="" method="post">
+              <form id="footer-contact" action="">
                 <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>
@@ -310,8 +312,7 @@ https://templatemo.com/tm-545-finance-business
                         placeholder="E-Mail Address" required="">
                     </fieldset>
                     <fieldset>
-                      <input name="phone" type="text" class="form-control" id="phone" pattern="[789][0-9]{9}"
-                        placeholder="Phone" required="">
+                      <input name="Phone" type="text" class="form-control" id="Phone" placeholder="Phone" required="">
                     </fieldset>
   
   
@@ -364,6 +365,44 @@ https://templatemo.com/tm-545-finance-business
           }
       }
     </script>
+    <script>
+      $("#footer-contact").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbxaTEZ31MtzfCP8mfxdLKY9ZQgStQpAFB1UeKc5ghtZwMcNcV1bBbSBo1wXT7GOrlQx0A/exec",
+              data:$("#footer-contact").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbxaTEZ31MtzfCP8mfxdLKY9ZQgStQpAFB1UeKc5ghtZwMcNcV1bBbSBo1wXT7GOrlQx0A/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
 
   </body>
 </html>
