@@ -1392,6 +1392,7 @@ footer .contact-form button.filled-button:hover {
   padding: 60px 30px;
   background-color: #f7f7f7;
   text-align: center;
+  height: 100%;
 }
 
 .contact-information .contact-item i {
@@ -1486,6 +1487,7 @@ footer .contact-form button.filled-button:hover {
   }
   .contact-item {
     margin-bottom: 30px;
+    height: 100% !important;
   }
 }
 
