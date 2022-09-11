@@ -549,12 +549,10 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <button type="submit" id="form-submit" class="border-button" >Send Message</button>
+                    <button type="submit" id="form-submit" class="border-button button" >Send Message</button>
                   </fieldset>
                   <div class="main">
-                    <button class="button">Send</button>
-                    
-                    
+
                     <div class="loader">
                       <div class="check">
                         <img src="https://www.freepnglogos.com/uploads/tick-png/red-tick-check-mark-transparent-png-svg-vector-34.png" alt="asd" style="width:40px;height:40px;"/>
@@ -675,7 +673,7 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                    <button type="submit" id="form-submit" class="filled-button button">Send Message</button>
                   </fieldset>
                 </div>
               </div>
@@ -726,8 +724,8 @@ https://templatemo.com/tm-545-finance-business
             data:$("#submit-form").serialize(),
             method:"post",
             success:function (response){
-                alert("Form submitted successfully")
-                window.location.reload()
+                // alert("Form submitted successfully")
+                // window.location.reload()
                 //window.location.href="https://google.com"
             },
             error:function (err){
@@ -745,8 +743,8 @@ https://templatemo.com/tm-545-finance-business
           data:$("#submit1-form").serialize(),
           method:"post",
           success:function (response){
-              alert("Form submitted successfully")
-              window.location.reload()
+              // alert("Form submitted successfully")
+              // window.location.reload()
               //window.location.href="https://google.com"
           },
           error:function (err){
@@ -756,7 +754,7 @@ https://templatemo.com/tm-545-finance-business
       })
   })
   document.addEventListener('DOMContentLoaded', function () {
-    var btn = document.querySelector('.button'),
+    var btn = document.querySelector(".button"),
         loader = document.querySelector('.loader'),
         check = document.querySelector('.check');
     
@@ -765,7 +763,6 @@ https://templatemo.com/tm-545-finance-business
     });
    
     loader.addEventListener('animationend', function() {
-      alert('animationend')
       check.classList.add('active'); 
     });
   });
