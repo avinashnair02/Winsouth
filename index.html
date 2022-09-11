@@ -551,6 +551,18 @@ https://templatemo.com/tm-545-finance-business
                   <fieldset>
                     <button type="submit" id="form-submit" class="border-button" >Send Message</button>
                   </fieldset>
+                  <div class="main">
+                    <button class="button">Send</button>
+                    
+                    
+                    <div class="loader">
+                      <div class="check">
+                        <img src="https://www.freepnglogos.com/uploads/tick-png/red-tick-check-mark-transparent-png-svg-vector-34.png" alt="asd" style="width:40px;height:40px;"/>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  
                 </div>
               </div>
             </form>
@@ -743,7 +755,23 @@ https://templatemo.com/tm-545-finance-business
           }
       })
   })
+  document.addEventListener('DOMContentLoaded', function () {
+    var btn = document.querySelector('.button'),
+        loader = document.querySelector('.loader'),
+        check = document.querySelector('.check');
+    
+    btn.addEventListener('click', function () {
+      loader.classList.add('active');    
+    });
+   
+    loader.addEventListener('animationend', function() {
+      alert('animationend')
+      check.classList.add('active'); 
+    });
+  });
+  
 </script>
+
 
 </body>
 
